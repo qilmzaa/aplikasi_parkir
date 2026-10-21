@@ -1,3 +1,32 @@
+# Dependensi
 node_modules/
-.env
+
+# Build output
 dist/
+.vite/
+
+# Environment & secrets
+.env
+*.env.local
+
+# Log & cache
+*.log
+npm-debug.log*
+logs/
+.cache/
+coverage/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Database backup (berisi data)
+**/database/backup/
